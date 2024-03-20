@@ -10,4 +10,32 @@ Colors:
   background-color: #64414b;
 }
 
-.shape {}
+.shape {
+  position: relative;
+  width: 89px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.shape::before {
+  content: '';
+  position: absolute;
+  background-color: #ff955f;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  top: 10px;
+  left: 10px;
+  /* box-shadow: 100px 100px #ff955f; */
+}
+
+/* .shape::after {
+  content: '';
+  position: absolute;
+  background-color: #ffd7b4;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  top: 10px;
+  left: 60px;
+} */

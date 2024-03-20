@@ -10,4 +10,13 @@ Colors:
   background-color: #030026;
 }
 
-.shape {}
+.shape {
+  position: relative;
+  background-color: #8c3d62;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  left: 70px;
+  top: 75px;
+  box-shadow: 105px 0 #ff8582;
+}

@@ -9,4 +9,31 @@ Colors:
   background-color: #4893d2;
 }
 
-.shape {}
+.shape {
+  position: relative;
+  background-color: #063a86;
+  width: 100px;
+  height: 250px;
+  margin-inline: auto;
+  top: 25px;
+}
+
+.shape::before {
+  content: '';
+  position: absolute;
+  background-color: #4893d2;
+  width: 100px;
+  height: 100px;
+  rotate: 45deg;
+  top: -72px;
+}
+
+.shape::after {
+  content: '';
+  position: absolute;
+  background-color: #4893d2;
+  width: 100px;
+  height: 100px;
+  rotate: 45deg;
+  bottom: -71px;
+}

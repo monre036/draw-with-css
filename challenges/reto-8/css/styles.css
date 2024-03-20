@@ -10,4 +10,32 @@ Colors:
   background-color: #0b2429;
 }
 
-.leaf {}
+.leaf {
+  position: relative;
+  background-color: #f3ac3c;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  left: 80px;
+  top: 150px;
+  box-shadow: 60px -60px #998235, 120px -120px #f3ac3c;
+}
+
+.leaf::before {
+  content: '';
+  position: absolute;
+  background-color: #f3ac3c;
+  width: 60px;
+  height: 60px;
+  left: 60px;
+}
+
+.leaf::after {
+  content: '';
+  position: absolute;
+  background-color: #998235;
+  width: 60px;
+  height: 60px;
+  left: 120px;
+  top: -60px;
+}

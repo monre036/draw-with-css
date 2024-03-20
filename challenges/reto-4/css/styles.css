@@ -13,4 +13,22 @@ Colors:
   background-color: #121212;
 }
 
-.shape {}
+.shape {
+  position: relative;
+  background-color: #3278ff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-inline: auto;
+  top: 50px;
+  overflow: hidden;
+}
+
+.shape::before {
+  content: '';
+  position: absolute;
+  background-color: #79d6ff;
+  width: 74px;
+  height: 126px;
+  top: 72px;
+}
