@@ -11,4 +11,14 @@ Colors:
   background-color: #0b2429;
 }
 
-.leaf {}
+.leaf {
+  position: relative;
+  background-color: #f3ac3c;
+  width: 150px;
+  height: 150px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  left: 175px;
+  top: 75px;
+  box-shadow: -50px 0 #998235, -100px 0 #1a4341;
+}

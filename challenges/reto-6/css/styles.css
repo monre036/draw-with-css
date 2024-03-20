@@ -12,30 +12,11 @@ Colors:
 
 .shape {
   position: relative;
-  width: 89px;
-  height: 90px;
-  overflow: hidden;
-}
-
-.shape::before {
-  content: '';
-  position: absolute;
   background-color: #ff955f;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border-top-left-radius: 100%;
   top: 10px;
   left: 10px;
-  /* box-shadow: 100px 100px #ff955f; */
+  box-shadow: 100px 0 #ffd7b4, 200px 0 #ff955f, 300px 0 #ffd7b4, 0 100px #ffd7b4, 100px 100px #ff955f, 200px 100px #ffd7b4, 300px 100px #ff955f, 0 200px #ff955f, 100px 200px #ffd7b4, 200px 200px #ff955f, 300px 200px #ffd7b4;
 }
-
-/* .shape::after {
-  content: '';
-  position: absolute;
-  background-color: #ffd7b4;
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  top: 10px;
-  left: 60px;
-} */

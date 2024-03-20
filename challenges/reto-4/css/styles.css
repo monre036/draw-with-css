@@ -15,20 +15,31 @@ Colors:
 
 .shape {
   position: relative;
-  background-color: #3278ff;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-inline: auto;
-  top: 50px;
-  overflow: hidden;
+  background-color: #ffe58e;
+  width: 74px;
+  height: 125px;
+  top: 123px;
+  left: 120px;
 }
 
 .shape::before {
   content: '';
   position: absolute;
+  background-color: #3278ff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-inline: auto;
+  top: -75px;
+}
+
+.shape::after {
+  content: '';
+  position: absolute;
   background-color: #79d6ff;
   width: 74px;
-  height: 126px;
-  top: 72px;
+  height: 74px;
+  border-bottom-left-radius: 100%;
+  margin-inline: auto;
+  top: 1px;
 }
