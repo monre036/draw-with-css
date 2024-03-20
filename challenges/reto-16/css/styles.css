@@ -10,4 +10,36 @@ Colors:
   background-color: #62306d;
 }
 
-.ticket {}
+.ticket {
+  position: relative;
+  background-color: #F7EC7D;
+  width: 140px;
+  height: 100px;
+  left: 100px;
+  top: 100px;
+  box-shadow: 60px 0 #E38F66;
+}
+
+.ticket::before {
+  position: absolute;
+  content: '';
+  background-color: #62306D;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  top: 80px;
+  left: -25px;
+  box-shadow: 204px 0 #62306D, 0 -107px #62306D, 204px -107px #62306D;
+}
+
+.ticket::after {
+  position: absolute;
+  content: '';
+  background-color: #62306D;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: -10px;
+  left: 130px;
+  box-shadow: 0 100px #62306D;
+}

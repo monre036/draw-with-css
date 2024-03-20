@@ -34,3 +34,15 @@ Colors:
   top: -50px;
   box-shadow: 100px 0 #fff1c1;
 }
+
+.head::after {
+  position: absolute;
+  content: '';
+  background-color: #fff1c1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 90px;
+  left: 20px;
+  box-shadow: 100px 0 #fff1c1;
+}

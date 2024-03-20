@@ -20,3 +20,16 @@ Colors:
   top: 75px;
   box-shadow: 105px 0 #ff8582;
 }
+
+.shape::before {
+  position: absolute;
+  content: '';
+  background-color: #030026;
+  width: 77px;
+  height: 77px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  top: 37px;
+  left: 89px;
+  rotate: 45deg;
+}

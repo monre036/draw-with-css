@@ -10,4 +10,22 @@ Colors:
 }
 
 .letter {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-inline: auto;
+  top: 50px;
+  border: 50px solid #243D83;
+}
+
+.letter::before {
+  position: absolute;
+  content: '';
+  background-color: #243D83;
+  width: 50px;
+  height: 100px;
+  top: -50px;
+  left: -50px;
+  box-shadow: 50px 0 #6592CF;
 }

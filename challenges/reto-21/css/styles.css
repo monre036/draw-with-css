@@ -9,4 +9,12 @@ Colors:
   background-color: #0b2429;
 }
 
-.triangle {}
+.triangle {
+  position: relative;
+  background-color: #F3AC3C;
+  width: 200px;
+  height: 200px;
+  rotate: 45deg;
+  top: -100px;
+  left: -100px;
+}
