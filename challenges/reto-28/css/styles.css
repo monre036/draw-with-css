@@ -14,9 +14,10 @@ Colors:
 .shape {
   position: relative;
   background-color: #998235;
-  width: 150px;
+  width: 75px;
   height: 150px;
-  border-radius: 50%;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
   margin-inline: auto;
   top: 75px;
 }

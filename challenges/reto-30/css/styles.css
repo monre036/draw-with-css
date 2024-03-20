@@ -11,4 +11,34 @@ Colors:
 }
 
 .piano {
+  position: relative;
+  background-color: #191919;
+  width: 180px;
+  height: 100px;
+  margin-inline: auto;
+  top: 100px;
+  border-radius: 10px;
+}
+
+.piano::before {
+  position: absolute;
+  content: '';
+  background-color: #fff;
+  width: 20px;
+  height: 70px;
+  bottom: 5px;
+  left: 5px;
+  border-radius: 5px;
+  box-shadow: 25px 0 #fff, 50px 0 #fff, 75px 0 #fff, 100px 0 #fff, 125px 0 #fff, 150px 0 #fff;
+}
+
+.piano::after {
+  position: absolute;
+  content: '';
+  background-color: #191919;
+  width: 15px;
+  height: 35px;
+  top: 25px;
+  left: 20px;
+  box-shadow: 25px 0 #191919, 75px 0 #191919, 100px 0 #191919, 125px 0 #191919;
 }

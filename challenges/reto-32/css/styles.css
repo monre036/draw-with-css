@@ -11,7 +11,52 @@ Colors:
 }
 
 .shape-1 {
+  position: relative;
+  background-color: #d9d90c;
+  width: 150px;
+  height: 75px;
+  margin-inline: auto;
+  top: 150px;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.shape-1::before {
+  position: absolute;
+  content: '';
+  background-color: #191919;
+  width: 25px;
+  height: 75px;
+  box-shadow: 35px 0 #191919, 70px 0 #191919;
+}
+
+.shape-1::after {
+  position: absolute;
+  content: '';
+  background-color: #191919;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  left: 115px;
+  top: 20px;
 }
 
 .shape-2 {
+  position: relative;
+  background-color: #FFF;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  left: 125px;
+  box-shadow: 75px 0 #FFF;
+}
+
+.shape-2::before {
+  position: absolute;
+  content: '';
+  background-color: #FFF;
+  width: 75px;
+  height: 35px;
+  top: 40px;
+  left: 38px;
 }
