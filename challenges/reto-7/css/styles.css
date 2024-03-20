@@ -18,16 +18,15 @@ Colors:
   border-radius: 50%;
   left: 70px;
   top: 75px;
-  /* box-shadow: -10px 0 #030026; */
 }
 
 .shape::before {
   position: absolute;
   content: '';
-  background-color: #ff8582;
+  background-color: #030026;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   left: 100px;
-  box-shadow: -10px 0 #030026;
+  box-shadow: inset -100px 0 #ff8582;
 }

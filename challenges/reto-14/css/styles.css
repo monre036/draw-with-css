@@ -13,23 +13,27 @@ Colors:
 
 .circle {
   position: relative;
-  background-color: #824B20;
+  background-color: #E08027;
   width: 160px;
   height: 160px;
   border-radius: 50%;
   margin-inline: auto;
   top: 70px;
+  border: 30px solid #824B20;
 }
 
 .circle::before {
   position: absolute;
   content: '';
-  background-color: #E08027;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  top: 30px;
-  left: 30px;
+  top: -10px;
+  left: -10px;
+  border: 20px solid #FFF58F;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  rotate: 44deg;
 }
 
 .circle::after {
@@ -39,7 +43,7 @@ Colors:
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  top: 70px;
-  left: 20px;
+  top: 40px;
+  left: -10px;
   box-shadow: 100px 0 #FFF58F;
 }
